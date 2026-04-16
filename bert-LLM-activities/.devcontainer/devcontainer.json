@@ -7,12 +7,9 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-python.vscode-pylance"
-      ],
-      "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python"
-      }
+      ]
     }
   },
-  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install -r requirements.txt",
   "remoteUser": "vscode"
 }
