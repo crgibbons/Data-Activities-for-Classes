@@ -13,6 +13,6 @@
       }
     }
   },
-  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install -r requirements.txt && python -c \"from huggingface_hub import login; import os; login(token=os.environ.get('HF_TOKEN')) if os.environ.get('HF_TOKEN') else None\""
   "remoteUser": "vscode"
 }
