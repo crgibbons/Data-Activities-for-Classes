@@ -1,8 +1,0 @@
-transformers
-torch
-datasets
-accelerate
-jupyter
-ipykernel
-sentencepiece
-huggingface_hub

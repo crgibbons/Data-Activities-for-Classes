@@ -1,14 +1,8 @@
-jupyter
-ipykernel
-notebook
-jupyterlab
 transformers
 torch
+datasets
 accelerate
+jupyter
+ipykernel
 sentencepiece
 huggingface_hub
-gensim
-scikit-learn
-matplotlib
-numpy
-ipywidgets
