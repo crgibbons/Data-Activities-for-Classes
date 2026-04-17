@@ -1,9 +1,6 @@
 {
   "name": "Python + Hugging Face",
   "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {}
-  },
   "customizations": {
     "vscode": {
       "extensions": [
