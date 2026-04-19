@@ -4,5 +4,6 @@ datasets
 accelerate
 jupyter
 ipykernel
+ipywidgets
 sentencepiece
 huggingface_hub
