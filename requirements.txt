@@ -8,4 +8,5 @@ ipywidgets
 jupyterlab_widgets
 widgetsnbextension
 sentencepiece
+pandas
 huggingface_hub
