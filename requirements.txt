@@ -10,3 +10,5 @@ widgetsnbextension
 sentencepiece
 pandas
 huggingface_hub
+scikit-learn
+matplotlib
